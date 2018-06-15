@@ -22,6 +22,8 @@ public class PhotoDao {
 			single = new PhotoDao();
 		}
 		return single;
+		
+		// 포토 DAO 수정
 	}
 
 	public ArrayList<PhotoVo> selectList() {
